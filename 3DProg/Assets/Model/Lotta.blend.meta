@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: 0425710410787e443b1a8cbe1e22f17a
 ModelImporter:
-  serializedVersion: 22
+  serializedVersion: 23
   fileIDToRecycleName:
     100000: ball_l
     100002: ball_r
@@ -65,6 +65,16 @@ ModelImporter:
     100118: thumb_03_r
     100120: upperarm_l
     100122: upperarm_r
+    100124: 0
+    100126: 1
+    100128: 2
+    100130: 3
+    100132: 4
+    100134: 5
+    100136: 6
+    100138: 7
+    100140: 8
+    100142: 9
     400000: ball_l
     400002: ball_r
     400004: calf_l
@@ -127,6 +137,16 @@ ModelImporter:
     400118: thumb_03_r
     400120: upperarm_l
     400122: upperarm_r
+    400124: 0
+    400126: 1
+    400128: 2
+    400130: 3
+    400132: 4
+    400134: 5
+    400136: 6
+    400138: 7
+    400140: 8
+    400142: 9
     2100000: Lotta_Shoes05_Shoes05
     2100002: Lotta_Knitted_sweater_01_Knitted_sweater_01
     2100004: Lotta_Pants_wool_Pantsmaterial
@@ -142,6 +162,8 @@ ModelImporter:
     4300010: Lotta_Ponytail01
     4300012: Lotta_Body
     7400000: Default Take
+    7400002: test1
+    7400004: test2
     9500000: //RootNode
     13700000: Lotta_Body
     13700002: Lotta_Eyebrow001
@@ -201,6 +223,8 @@ ModelImporter:
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
