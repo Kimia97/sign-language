@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: 0425710410787e443b1a8cbe1e22f17a
 ModelImporter:
-  serializedVersion: 23
+  serializedVersion: 22
   fileIDToRecycleName:
     100000: ball_l
     100002: ball_r
@@ -75,6 +75,15 @@ ModelImporter:
     100138: 7
     100140: 8
     100142: 9
+    100144: Lotta_001
+    100146: Lotta_Body_001
+    100148: Lotta_Eyebrow001_001
+    100150: Lotta_High-poly_001
+    100152: Lotta_Knitted_sweater_01_001
+    100154: Lotta_Pants_wool_001
+    100156: Lotta_Ponytail01_001
+    100158: Lotta_Shoes05_001
+    100160: Lotta_Teeth_base
     400000: ball_l
     400002: ball_r
     400004: calf_l
@@ -147,6 +156,15 @@ ModelImporter:
     400138: 7
     400140: 8
     400142: 9
+    400144: Lotta_001
+    400146: Lotta_Body_001
+    400148: Lotta_Eyebrow001_001
+    400150: Lotta_High-poly_001
+    400152: Lotta_Knitted_sweater_01_001
+    400154: Lotta_Pants_wool_001
+    400156: Lotta_Ponytail01_001
+    400158: Lotta_Shoes05_001
+    400160: Lotta_Teeth_base
     2100000: Lotta_Shoes05_Shoes05
     2100002: Lotta_Knitted_sweater_01_Knitted_sweater_01
     2100004: Lotta_Pants_wool_Pantsmaterial
@@ -154,6 +172,14 @@ ModelImporter:
     2100008: Lotta_High-poly_Eye_brown
     2100010: Lotta_Ponytail01_Ponytail01
     2100012: Lotta_Body_Defaultskin
+    2100014: Lotta_Shoes05_Shoes05_001
+    2100016: Lotta_Pants_wool_Pantsmaterial_001
+    2100018: Lotta_Knitted_sweater_01_Knitted_sweater_01_001
+    2100020: Lotta_Teeth_base_Teethmaterial
+    2100022: Lotta_Eyebrow001_Eyebrow001_001
+    2100024: Lotta_High-poly_Eye_brown_001
+    2100026: Lotta_Ponytail01_Ponytail01_001
+    2100028: Lotta_Body_Defaultskin_001
     4300000: Lotta_Shoes05
     4300002: Lotta_Knitted_sweater_01
     4300004: Lotta_Pants_wool
@@ -161,6 +187,14 @@ ModelImporter:
     4300008: Lotta_High-poly
     4300010: Lotta_Ponytail01
     4300012: Lotta_Body
+    4300014: Lotta_Shoes05_001
+    4300016: Lotta_Pants_wool_001
+    4300018: Lotta_Knitted_sweater_01_001
+    4300020: Lotta_Teeth_base
+    4300022: Lotta_Eyebrow001_001
+    4300024: Lotta_High-poly_001
+    4300026: Lotta_Ponytail01_001
+    4300028: Lotta_Body_001
     7400000: Default Take
     7400002: test1
     7400004: test2
@@ -173,6 +207,14 @@ ModelImporter:
     13700008: Lotta_Pants_wool
     13700010: Lotta_Ponytail01
     13700012: Lotta_Shoes05
+    13700014: Lotta_Body_001
+    13700016: Lotta_Eyebrow001_001
+    13700018: Lotta_High-poly_001
+    13700020: Lotta_Knitted_sweater_01_001
+    13700022: Lotta_Pants_wool_001
+    13700024: Lotta_Ponytail01_001
+    13700026: Lotta_Shoes05_001
+    13700028: Lotta_Teeth_base
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -280,8 +322,6 @@ ModelImporter:
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 1
-    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
