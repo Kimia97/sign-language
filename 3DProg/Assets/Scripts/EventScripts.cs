@@ -1,16 +1,15 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.UI;
 using UnityEngine;
 
 public class EventScripts : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+    public Image image;
+
+    public void changeImage(Button btn) {
+        Sprite sprite = btn.image.sprite;
+        image.sprite = sprite;
+    }
+
 }
