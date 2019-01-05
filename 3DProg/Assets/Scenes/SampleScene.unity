@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.35292408, g: 0.57367617, b: 0.8686605, a: 1}
+  m_IndirectSpecularColor: {r: 0.29690123, g: 0.633799, b: 0.9937174, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -387,8 +387,13 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4710001518162252, guid: 4bce13c240ea76c46a244689979b9dd8, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 8.5
+      value: 8.41
       objectReference: {fileID: 0}
+    - target: {fileID: 23395812650723554, guid: 4bce13c240ea76c46a244689979b9dd8,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d9617f239bc8b47ef944bcaaaf7ce17f, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4bce13c240ea76c46a244689979b9dd8, type: 2}
   m_IsPrefabAsset: 0
@@ -467,8 +472,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 219485883}
   m_HandleRect: {fileID: 219485882}
   m_Direction: 2
-  m_Value: 1
-  m_Size: 0.21610431
+  m_Value: 0.99999976
+  m_Size: 0.46294907
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -760,6 +765,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 864289153}
     m_Modifications:
+    - target: {fileID: 114219183479265480, guid: b5765c0d1b4ecf8498aa1e2121c268c7,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 224272461918152884, guid: b5765c0d1b4ecf8498aa1e2121c268c7,
         type: 2}
       propertyPath: m_LocalPosition.x
@@ -910,6 +920,41 @@ Prefab:
       propertyPath: m_FontData.m_RichText
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 114219183479265480, guid: b5765c0d1b4ecf8498aa1e2121c268c7,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 114219183479265480, guid: b5765c0d1b4ecf8498aa1e2121c268c7,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114219183479265480, guid: b5765c0d1b4ecf8498aa1e2121c268c7,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 789847680}
+    - target: {fileID: 114219183479265480, guid: b5765c0d1b4ecf8498aa1e2121c268c7,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: Toggle
+      objectReference: {fileID: 0}
+    - target: {fileID: 114219183479265480, guid: b5765c0d1b4ecf8498aa1e2121c268c7,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 114219183479265480, guid: b5765c0d1b4ecf8498aa1e2121c268c7,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_IntArgument
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114219183479265480, guid: b5765c0d1b4ecf8498aa1e2121c268c7,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b5765c0d1b4ecf8498aa1e2121c268c7, type: 2}
   m_IsPrefabAsset: 0
@@ -984,7 +1029,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 282840810}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.811, y: 5.4, z: -11.849}
+  m_LocalPosition: {x: 0.23, y: 6.06, z: -13.7}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1710707555}
@@ -1611,7 +1656,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4988028716541518, guid: 3694d41145a94a545973e54df7dab287, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 1.51
+      value: 1.41
       objectReference: {fileID: 0}
     - target: {fileID: 4988028716541518, guid: 3694d41145a94a545973e54df7dab287, type: 2}
       propertyPath: m_LocalPosition.y
@@ -1619,7 +1664,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4988028716541518, guid: 3694d41145a94a545973e54df7dab287, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 2.98
+      value: 2.37
       objectReference: {fileID: 0}
     - target: {fileID: 4988028716541518, guid: 3694d41145a94a545973e54df7dab287, type: 2}
       propertyPath: m_LocalRotation.x
@@ -1801,7 +1846,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.00004264204, y: -0.00000801666}
+  m_AnchoredPosition: {x: 0.00001770363, y: 0.000025523083}
   m_SizeDelta: {x: 0, y: 538.8}
   m_Pivot: {x: 0, y: 1}
 --- !u!1 &1031738122
@@ -1841,7 +1886,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 53.882355, y: -6.2289}
+  m_AnchoredPosition: {x: 53.882355, y: -6.2289124}
   m_SizeDelta: {x: 160, y: 74.647}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1031738124
@@ -2671,7 +2716,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 53054024}
   m_HandleRect: {fileID: 53054023}
   m_Direction: 0
-  m_Value: 0
+  m_Value: 1
   m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
