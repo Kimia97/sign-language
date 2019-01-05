@@ -12,4 +12,9 @@ public class EventScripts : MonoBehaviour {
         image.sprite = sprite;
     }
 
+    public void exitApplication()
+    {
+        Application.Quit();
+    }
+
 }
